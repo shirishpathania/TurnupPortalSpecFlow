@@ -17,7 +17,7 @@ namespace TurnupPortalSpecFlow.Pages
             {
                 // identify the username textbox and enter a valid username
                 IWebElement usernameTextbox = driver.FindElement(By.Id("UserName"));
-                usernameTextbox.SendKeys("hari");
+                usernameTextbox.SendKeys("HARI");
             }
             catch (Exception ex)
             {
@@ -27,7 +27,7 @@ namespace TurnupPortalSpecFlow.Pages
 
             // identify password textbox and enter valid password
             IWebElement passwordTextbox = driver.FindElement(By.Id("Password"));
-            passwordTextbox.SendKeys("123123");
+            passwordTextbox.SendKeys("789789");
 
             // click on login button
             IWebElement loginButton = driver.FindElement(By.XPath("//*[@id=\"loginForm\"]/form/div[3]/input[1]"));
